@@ -2,4 +2,6 @@
 An easy, cheap and open source way to add IoT to a light switch.  
 
 
-# Suggested Features
+## Suggested Features
+* Clap detection circuit
+* Current flow detection (detect if the bulb is on or not, switch state, blown bulb, etc.)
