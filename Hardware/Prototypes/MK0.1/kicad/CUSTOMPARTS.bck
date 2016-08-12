@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri 12 Aug 2016 16:00:57 BST
+#
+$CMP SPDT
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+#End Doc Library
