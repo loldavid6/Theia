@@ -10,4 +10,4 @@ An easy, cheap and open source way to add IoT to a light switch.
 ## Prototypes
 **Current hardware revision is "_MK0.1 - Weiss_"**
 
-Check out the prototypes [here] (../blob/master/Hardware/Prototypes/)
+Check out the prototypes [here] (../master/Hardware/Prototypes/)
