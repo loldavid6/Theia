@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 14 Aug 2016 18:40:50 BST
+
+BeginCmp
+TimeStamp = /5794A650;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794B12E;
+Reference = C2;
+ValeurCmp = 100uF 16V;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794AD98;
+Reference = C3;
+ValeurCmp = 10uF 35V;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A437;
+Reference = C4;
+ValeurCmp = 4.7uF 400V;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A429;
+Reference = C5;
+ValeurCmp = 4.7uF 400V;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF050E;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF04FF;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794ACC1;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794B3D9;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A4E8;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A504;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF6EEC;
+Reference = D5;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794AE6C;
+Reference = L1;
+ValeurCmp = 1mH 280mA;
+IdModule  = 815-AIUR-02H-102K;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A4A5;
+Reference = L2;
+ValeurCmp = 1mH;
+IdModule  = 815-AIUR-02H-102K;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADFA85;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF7EC0;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF66BE;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794AA46;
+Reference = R1;
+ValeurCmp = 13.0 kΩ 1%;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ACCEF8;
+Reference = R2;
+ValeurCmp = 1.7kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A65F;
+Reference = R3;
+ValeurCmp = 2.05 kΩ 1%;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794B434;
+Reference = R4;
+ValeurCmp = 3.3 kΩ;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ACCF07;
+Reference = R5;
+ValeurCmp = 3.3kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF2F22;
+Reference = R6;
+ValeurCmp = 1kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A570;
+Reference = RF1;
+ValeurCmp = 8.2Ω 2W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794B688;
+Reference = U1;
+ValeurCmp = CONN_2;
+IdModule  = 5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5794A1F5;
+Reference = U2;
+ValeurCmp = LNK304_P/G;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5790EA90;
+Reference = U3;
+ValeurCmp = CONN_2;
+IdModule  = 5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADE642;
+Reference = U4;
+ValeurCmp = ESP8266-12;
+IdModule  = ESP8266-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF6D51;
+Reference = U5;
+ValeurCmp = SRD-05VDC-SL-C;
+IdModule  = SRD-05VDC-SL-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF03CD;
+Reference = U6;
+ValeurCmp = LD1117;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF7988;
+Reference = U7;
+ValeurCmp = CONN_2;
+IdModule  = 5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ACD0BB;
+Reference = W1;
+ValeurCmp = RST;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADFD2E;
+Reference = W2;
+ValeurCmp = PROG1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADFD95;
+Reference = W3;
+ValeurCmp = PROG2;
+IdModule  = SIL-2;
+EndCmp
+
+EndListe

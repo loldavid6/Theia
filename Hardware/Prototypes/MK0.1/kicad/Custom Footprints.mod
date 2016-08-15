@@ -1,10 +1,60 @@
-PCBNEW-LibModule-V1  Thu 11 Aug 2016 18:17:14 BST
+PCBNEW-LibModule-V1  Sun 14 Aug 2016 13:41:10 BST
 # encoding utf-8
 Units mm
 $INDEX
+5mm
+815-AIUR-02H-102K
 ESP8266-01
 ESP8266-12
+SRD-05VDC-SL-C
 $EndINDEX
+$MODULE 5mm
+Po 0 0 0 15 57B025CD 00000000 ~~
+Li 5mm
+Sc 0
+AR 
+Op 0 0 0
+T0 2.5 -1 1 1 0 0.15 N V 21 N "5mm"
+T1 3 1.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 1 1 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1 1 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$EndMODULE 5mm
+$MODULE 815-AIUR-02H-102K
+Po 0 0 0 15 57B066E0 00000000 ~~
+Li 815-AIUR-02H-102K
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5.6 1 1 0 0.15 N V 21 N "815-AIUR-02H-102K"
+T1 0 6.2 1 1 0 0.15 N V 21 N "VAL**"
+DC 0 0 4.3 0 0.15 21
+$PAD
+Sh "2" C 1.64 1.64 0 0 0
+Dr 0.64 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "1" C 1.64 1.64 0 0 0
+Dr 0.64 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$EndMODULE 815-AIUR-02H-102K
 $MODULE ESP8266-01
 Po 0 0 0 15 57ACB316 00000000 ~~
 Li ESP8266-01
@@ -95,14 +145,13 @@ Po 11.43 -5.08
 $EndPAD
 $EndMODULE ESP8266-01
 $MODULE ESP8266-12
-Po 0 0 0 15 57ACAB49 00000000 ~~
+Po 0 0 0 15 57AEFEE4 00000000 ~~
 Li ESP8266-12
 Sc 0
 AR 
 Op 0 0 0
 T0 15 3 1 1 0 0.15 N V 21 N "ESP8266-12"
 T1 15 13 1 1 0 0.15 N V 21 N "VAL**"
-DS 17 5 22 0 1 15
 DS 4 0 6 2 0.15 21
 DS 6 5 1 0 0.15 21
 DS 0 14 2 16 0.15 21
@@ -281,257 +330,60 @@ At SMD N 00888000
 Ne 0 ""
 Po 24 3
 $EndPAD
-$PAD
-Sh "1" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 7
-$EndPAD
-$PAD
-Sh "2" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 7
-$EndPAD
-$PAD
-Sh "3" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 8
-$EndPAD
-$PAD
-Sh "4" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 8
-$EndPAD
-$PAD
-Sh "5" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 6
-$EndPAD
-$PAD
-Sh "6" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 6
-$EndPAD
-$PAD
-Sh "7" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 9
-$EndPAD
-$PAD
-Sh "8" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 9
-$EndPAD
-$PAD
-Sh "9" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 10
-$EndPAD
-$PAD
-Sh "10" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 10
-$EndPAD
-$PAD
-Sh "11" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 14 5
-$EndPAD
-$PAD
-Sh "12" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 15 5
-$EndPAD
-$PAD
-Sh "13" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 5
-$EndPAD
-$PAD
-Sh "14" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 6
-$EndPAD
-$PAD
-Sh "15" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 7
-$EndPAD
-$PAD
-Sh "16" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 8
-$EndPAD
-$PAD
-Sh "17" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 9
-$EndPAD
-$PAD
-Sh "18" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 16 10
-$EndPAD
-$PAD
-Sh "19" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 10
-$EndPAD
-$PAD
-Sh "20" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 9
-$EndPAD
-$PAD
-Sh "21" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 8
-$EndPAD
-$PAD
-Sh "22" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 7
-$EndPAD
-$PAD
-Sh "23" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 6
-$EndPAD
-$PAD
-Sh "24" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 13 5
-$EndPAD
-$PAD
-Sh "25" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 5
-$EndPAD
-$PAD
-Sh "26" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 6
-$EndPAD
-$PAD
-Sh "27" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 7
-$EndPAD
-$PAD
-Sh "28" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 8
-$EndPAD
-$PAD
-Sh "29" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 9
-$EndPAD
-$PAD
-Sh "30" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 17 10
-$EndPAD
-$PAD
-Sh "31" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 10
-$EndPAD
-$PAD
-Sh "32" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 9
-$EndPAD
-$PAD
-Sh "33" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 8
-$EndPAD
-$PAD
-Sh "34" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 7
-$EndPAD
-$PAD
-Sh "35" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 6
-$EndPAD
-$PAD
-Sh "36" R 1 1 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 12 5
-$EndPAD
 $EndMODULE ESP8266-12
+$MODULE SRD-05VDC-SL-C
+Po 0 0 0 15 57AF76F4 00000000 ~~
+Li SRD-05VDC-SL-C
+Sc 0
+AR 
+Op 0 0 0
+T0 10 -2 1 1 0 0.15 N V 21 N "SRD-05VDC-SL-C"
+T1 9 3 1 1 0 0.15 N V 21 N "VAL**"
+DS -1.4 -7.8 -1.4 7.8 0.15 21
+DS 17.7 7.8 17.7 -7.8 0.15 21
+DS 17.7 -7.8 17.5 -7.8 0.15 21
+DS -1.4 7.8 17.7 7.8 0.15 21
+DS -1.4 -7.8 17.7 -7.8 0.15 21
+DS -1.4 7.8 -1.3 7.8 0.15 21
+DS -1.3 -7.8 -1.4 -7.8 0.15 21
+DS -1.4 -7.8 -1.4 -7.6 0.15 21
+DS -1.4 7.7 -1.4 7.8 0.15 21
+DS 2.3 7.8 1.7 7.8 0.15 21
+DS 1.6 -7.8 2.4 -7.8 0.15 21
+$PAD
+Sh "1" O 1 2 0 0 0
+Dr 0.3 0 0 O 0.3 1.1
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 -6
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 6
+$EndPAD
+$PAD
+Sh "5" C 1.6 1.6 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 14.2 -6
+$EndPAD
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 14.2 6
+$EndPAD
+$EndMODULE SRD-05VDC-SL-C
 $EndLIBRARY

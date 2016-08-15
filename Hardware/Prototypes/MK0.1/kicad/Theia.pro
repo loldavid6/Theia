@@ -1,4 +1,4 @@
-update=Thu 11 Aug 2016 17:37:54 BST
+update=Mon 15 Aug 2016 19:24:04 BST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -52,10 +52,10 @@ LibName31=CUSTOMPARTS
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.500000000000
-PadDrillOvalY=0.500000000000
-PadSizeH=1.000000000000
-PadSizeV=1.000000000000
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.600000000000
+PadSizeV=1.600000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -68,7 +68,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=jdunmire/kicad-ESP8266-master/ESP8266pretty
+LibDir=../Theia
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -92,3 +92,5 @@ LibName20=ESP-12E
 LibName21=ESP-13-WROOM-02
 LibName22=ESP-201
 LibName23=Custom Footprints
+LibName24=OSH logo
+LibName25=new
