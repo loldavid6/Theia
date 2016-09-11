@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 06 Sep 2016 20:07:18 BST
+
+BeginCmp
+TimeStamp = /57AF6EEC;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CC36C3;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Conn2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CC36ED;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Wire2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C85E0C;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = Wire2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADFA85;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CC6D3A;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CB162D;
+Reference = Q1;
+ValeurCmp = TIP120_NPN;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF2F22;
+Reference = R1;
+ValeurCmp = 1kOhm;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CAF440;
+Reference = U1;
+ValeurCmp = LD1117;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5790EA90;
+Reference = U2;
+ValeurCmp = CONN_2;
+IdModule  = Conn2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ADE642;
+Reference = U3;
+ValeurCmp = ESP8266-12;
+IdModule  = ESP8266-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /57CDC9F2;
+Reference = U4;
+ValeurCmp = 2_BIT_DIP_SWITCH;
+IdModule  = 2bit_dipsw;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF6D51;
+Reference = U5;
+ValeurCmp = SRD-05VDC-SL-C;
+IdModule  = SRD-05VDC-SL-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /57AF7988;
+Reference = U6;
+ValeurCmp = CONN_2;
+IdModule  = Conn2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ACD0BB;
+Reference = W1;
+ValeurCmp = RST;
+IdModule  = TESTPOINT;
+EndCmp
+
+EndListe

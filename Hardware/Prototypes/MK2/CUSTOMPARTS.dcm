@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon 05 Sep 2016 20:14:01 BST
+#
+$CMP SPDT
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP TIP120_NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+#End Doc Library
