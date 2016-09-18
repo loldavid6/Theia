@@ -1,0 +1,12 @@
+1x 550 Ohm resistor
+1x 1 kOhm resistor
+5x 2 pin screwdown connector
+1x 1N4001 diode
+1x TIP 120 NPN transistor (TO220)
+1x LD1117 (fixed 3.3V)
+1x ESP8266-12(/e)
+1x 2 bit dip switch
+1x SRD-05VDC-SL-C
+1x 4 pin header [OPTIONAL]
+1x 8 pin header [OPTIONAL]
+1x PSU 5V@1A

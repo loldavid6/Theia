@@ -1,0 +1,40 @@
+eeschema (22-Jun-2014 BZR 4027)-stable  >> Creation date: Fri 16 Sep 2016 14:54:43 BST
+#Cmp ( order = Reference )
+| D1         1N4001      
+| P1         CONN_2      
+| P2         CONN_2      
+| P3         CONN_2      
+| P4         CONN_4      
+| P5         CONN_8      
+| Q1         TIP120_NPN  
+| R1         1kOhm       
+| R2         550         
+| U1         LD1117      
+| U2         CONN_2      
+| U3         ESP8266-12  
+| U4         2_BIT_DIP_SWITCH
+| U5         SRD-05VDC-SL-C
+| U6         CONN_2      
+| W1         RST         
+#End Cmp
+
+#Cmp ( order = Value )
+| 1N4001       D1        
+| CONN_2       P1        
+| CONN_2       P2        
+| CONN_2       P3        
+| CONN_4       P4        
+| CONN_8       P5        
+| TIP120_NPN   Q1        
+| 550          R2        
+| 1kOhm        R1        
+| CONN_2       U2        
+| 2_BIT_DIP_SWITCH U4        
+| CONN_2       U6        
+| LD1117       U1        
+| ESP8266-12   U3        
+| SRD-05VDC-SL-C U5        
+| RST          W1        
+#End Cmp
+
+#End List

@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "6 sep 2016"
+Date "7 sep 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -312,14 +312,6 @@ Text Notes 10150 4550 0    60   ~ 0
 1 way
 Text Notes 10150 4150 0    60   ~ 0
 2 way
-Wire Wire Line
-	8500 4550 9900 4550
-Wire Wire Line
-	9900 4550 9900 4400
-Wire Wire Line
-	8500 3850 9900 3850
-Wire Wire Line
-	9900 3850 9900 4200
 Wire Wire Line
 	3150 4050 1350 4050
 Wire Wire Line
@@ -598,4 +590,16 @@ Wire Wire Line
 	6450 4400 6350 4400
 Wire Wire Line
 	6350 4050 6350 4200
+Wire Wire Line
+	9900 4400 8900 4400
+Wire Wire Line
+	8900 4400 8900 3850
+Wire Wire Line
+	8900 3850 8500 3850
+Wire Wire Line
+	8500 4550 9300 4550
+Wire Wire Line
+	9300 4550 9300 4200
+Wire Wire Line
+	9300 4200 9900 4200
 $EndSCHEMATC
