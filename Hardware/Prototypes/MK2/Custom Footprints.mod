@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 11 Sep 2016 13:37:40 BST
+PCBNEW-LibModule-V1  Thu 29 Sep 2016 16:31:33 BST
 # encoding utf-8
 Units mm
 $INDEX
@@ -100,7 +100,7 @@ Po -2.5 0
 $EndPAD
 $EndMODULE 815-AIUR-02H-102K
 $MODULE Conn2.54
-Po 0 0 0 15 57CF0EA3 00000000 ~~
+Po 0 0 0 15 57ED33C4 00000000 ~~
 Li Conn2.54
 Sc 0
 AR 
@@ -122,15 +122,15 @@ DS 5 2.6 -5 2.6 0.15 21
 DS -5 2.6 -5 -2.6 0.15 21
 DS -5 -2.6 5 -2.6 0.15 21
 $PAD
-Sh "1" C 1.6 1.6 0 0 0
-Dr 0.8 0 0
+Sh "1" C 2 2 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -2.54 0
 $EndPAD
 $PAD
-Sh "2" C 1.6 1.6 0 0 0
-Dr 0.8 0 0
+Sh "2" C 2 2 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 0
@@ -406,7 +406,7 @@ Po 24 3
 $EndPAD
 $EndMODULE ESP8266-12
 $MODULE SRD-05VDC-SL-C
-Po 0 0 0 15 57CDB7F7 00000000 ~~
+Po 0 0 0 15 57ED32CE 00000000 ~~
 Li SRD-05VDC-SL-C
 Sc 0
 AR 
@@ -432,15 +432,15 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "3" C 1.6 1.6 0 0 0
-Dr 0.6 0 0
+Sh "3" C 2 2 0 0 0
+Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2 -6
 $EndPAD
 $PAD
-Sh "2" C 1.6 1.6 0 0 0
-Dr 0.6 0 0
+Sh "2" C 2 2 0 0 0
+Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2 6
